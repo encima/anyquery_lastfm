@@ -1,0 +1,17 @@
+{
+  "executable": "anyquery_lastfm.out",
+  "build_command": "make",
+  "user_config": {
+    "default": {
+      "api_key": "YOUR_API_KEY_HERE"
+    }
+  },
+  "tables": [
+    "recent_tracks",
+    "top_artists",
+    "top_tracks",
+    "top_albums"
+  ],
+  "log_file": "dev.log",
+  "log_level": "debug"
+}
